@@ -85,7 +85,10 @@ function Inputbox() {
                         <Image 
                         className='h-10 object-contain layout-fill' 
                         src={imageToPost} 
-                        alt='' />
+                        alt='' 
+                        width={540}
+                        height={300}  
+                        />
                         <p className='text-xs text-red-500 text-center' >Remove</p>
                     </div>
                 )}
