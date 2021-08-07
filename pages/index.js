@@ -7,6 +7,8 @@ import Feed from '../components/Feed'
 import Widgets from '../components/Widgets'
 import { db } from '../firebase';
 
+// NEXTAUTH_URL=http://localhost:3000
+
 export default function Home({session , posts}) {
   if (!session) return <Login/>;
   return (
